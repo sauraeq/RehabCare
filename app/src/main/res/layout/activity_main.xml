@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_margin="@dimen/_2sdp"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+
+       <EditText
+           android:id="@+id/edit_text_email"
+           android:hint="@string/Enter"
+           android:background="@drawable/corner"
+           android:layout_width="match_parent"
+           android:inputType="textEmailAddress"
+           android:padding="@dimen/_10sdp"
+           android:layout_marginTop="@dimen/_100sdp"
+           android:layout_marginLeft="@dimen/_2sdp"
+           android:layout_marginRight="@dimen/_2sdp"
+           android:layout_height="@dimen/_35sdp"
+           tools:ignore="Autofill" />
+       <EditText
+           android:padding="@dimen/_10sdp"
+           android:id="@+id/edit_text_password"
+           android:hint="@string/Password"
+           android:background="@drawable/corner"
+           android:layout_width="match_parent"
+           android:layout_marginTop="@dimen/_15sdp"
+           android:layout_marginRight="@dimen/_2sdp"
+           android:layout_marginLeft="@dimen/_2sdp"
+           android:layout_height="@dimen/_35sdp"
+           android:inputType="textPassword"
+           tools:ignore="Autofill" />
+
+       <Button
+           android:id="@+id/submit_res"
+           android:background="@drawable/corner"
+           android:layout_width="match_parent"
+           android:layout_marginTop="@dimen/_15sdp"
+           android:text="@string/Submit"
+           android:layout_marginRight="@dimen/_2sdp"
+           android:layout_marginLeft="@dimen/_2sdp"
+           android:layout_height="@dimen/_35sdp"/>
+
+
+   </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

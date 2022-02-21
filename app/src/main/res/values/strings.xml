@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="Enter">Enter Email Id</string>
+    <string name="Password">Enter PassWord</string>
+    <string name="Submit">Submit</string>
+</resources>
